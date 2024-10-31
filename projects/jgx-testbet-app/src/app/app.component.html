@@ -3,4 +3,9 @@
 </h1>
 
 <p>Minim sunt ea pariatur do commodo excepteur ipsum nisi elit labore do.</p>
-<lib-jgx-side-menu />
+<lib-jgx-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  [titleColor]="TitleColor.GREEN"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+/>
