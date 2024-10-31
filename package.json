@@ -10,7 +10,7 @@
     "test:sidemenu": "ng test jgx-side-menu",
     "test:sidemenu:dev": "ng test jgx-side-menu --no-watch --browsers ChromeHeadless",
     "lint:sidemenu": "ng lint jgx-side-menu",
-    "publish:sidemenu": "npm run test:sidemenu:dev && npm run build:sidemenu && npm publish dist/jgx-side-menu",
+    "publish:sidemenu": "npm run test:sidemenu:dev && npm run build:sidemenu && npm publish dist/jgx-side-menu/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
