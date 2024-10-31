@@ -33,11 +33,24 @@
               "zone.js/testing"
             ]
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/jgx-side-menu/**/*.ts",
+              "projects/jgx-side-menu/**/*.html"
+            ],
+            "eslintConfig": "projects/jgx-side-menu/eslint.config.js"
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": false,
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
