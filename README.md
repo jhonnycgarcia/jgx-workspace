@@ -36,3 +36,5 @@ ng build my-lib
 cd dist/my-lib
 npm publish
 ```
+
+`ng serve jgx-testbet-app`
