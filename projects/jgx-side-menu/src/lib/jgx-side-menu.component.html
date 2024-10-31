@@ -6,8 +6,8 @@
         class="text-2xl block antialiased tracking-normal font-sans font-bold leading-relaxed text-white"
       >
         <!-- TODO: personalizar colores -->
-        <span [classList]="[ titleColor() ]">TW</span>
-        <span class="font-thin">&nbsp;Corp</span>
+        <span [classList]="[ titleColor() ]">{{ title() }}</span>
+        <span class="font-thin">&nbsp;{{ subtitle() }}</span>
       </h6>
     </a>
     <button

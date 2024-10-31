@@ -30,4 +30,7 @@ export class JgxSideMenuComponent {
 
   public titleColor = input<TitleColor>(TitleColor.PURPLE);
 
+  public title = input<string>("TW");
+  public subtitle = input<string>("Corp");
+
 }
